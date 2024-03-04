@@ -1,0 +1,109 @@
+body {
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.area {
+    background-color: #81689D;
+    height: 70vh;
+    max-width: 60vw;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    
+}
+.container{
+    overflow-y: auto;
+}
+.send {
+    background-color:transparent;
+    margin: 10px;
+}
+.message {
+    background-color: aquamarine;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 980px;
+    width: 100%;
+}
+
+#messageInp{
+    margin-top: 10px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 45px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    #messageInp{
+        margin-top: 10px;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 45px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #messageInp{
+        margin-top: 10px;
+        width: 50%;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 45px;
+        padding: 5px;
+    }
+    .message {
+        background-color: aquamarine;
+        width: 44%;
+        padding: 10px;
+        margin: 17px 12px;
+        border: 2px solid black;
+        border-radius: 21px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #messageInp{
+  
+        width: 60%;
+     
+    }
+    .message {
+        background-color: aquamarine;
+        width: 44%;
+        padding: 10px;
+        margin: 17px 12px;
+        border: 2px solid black;
+        border-radius: 21px;
+    }
+}
+
+
+
+
